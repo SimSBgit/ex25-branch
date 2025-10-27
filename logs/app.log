@@ -184,3 +184,24 @@
 2025-10-27T14:47:46.001+09:00  INFO 7392 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
 2025-10-27T14:47:46.003+09:00  INFO 7392 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Started Ex25BranchApplication in 0.222 seconds (process running for 10049.554)
 2025-10-27T14:47:46.004+09:00  INFO 7392 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T15:13:57.771+09:00  INFO 7392 --- [ex25-branch] [RMI TCP Connection(267)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-27T15:13:57.772+09:00  INFO 7392 --- [ex25-branch] [RMI TCP Connection(267)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T15:13:57.773+09:00  INFO 7392 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T15:13:59.067+09:00  INFO 11776 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Starting Ex25BranchApplication using Java 21.0.8 with PID 11776 (D:\s09_springBoot\day11_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springBoot\day11_1027\ex25-branch)
+2025-10-27T15:13:59.069+09:00  INFO 11776 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T15:13:59.096+09:00  INFO 11776 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-27T15:13:59.096+09:00  INFO 11776 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-27T15:13:59.716+09:00  INFO 11776 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-10-27T15:13:59.725+09:00  INFO 11776 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T15:13:59.725+09:00  INFO 11776 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-27T15:13:59.754+09:00  INFO 11776 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T15:13:59.754+09:00  INFO 11776 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 658 ms
+2025-10-27T15:14:00.161+09:00  INFO 11776 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T15:14:00.183+09:00  INFO 11776 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2025-10-27T15:14:00.188+09:00  INFO 11776 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Started Ex25BranchApplication in 1.399 seconds (process running for 1.823)
+2025-10-27T15:14:07.737+09:00  INFO 11776 --- [ex25-branch] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T15:14:07.737+09:00  INFO 11776 --- [ex25-branch] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T15:14:07.738+09:00  INFO 11776 --- [ex25-branch] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T15:14:16.120+09:00  INFO 11776 --- [ex25-branch] [http-nio-8082-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T15:14:16.177+09:00  INFO 11776 --- [ex25-branch] [http-nio-8082-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@11d5fb99
+2025-10-27T15:14:16.179+09:00  INFO 11776 --- [ex25-branch] [http-nio-8082-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
