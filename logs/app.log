@@ -1,0 +1,33 @@
+2025-10-27T12:00:17.105+09:00  INFO 7392 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Starting Ex25BranchApplication using Java 21.0.8 with PID 7392 (D:\s09_springBoot\day11_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springBoot\day11_1027\ex25-branch)
+2025-10-27T12:00:17.107+09:00  INFO 7392 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T12:00:17.130+09:00  INFO 7392 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-27T12:00:17.130+09:00  INFO 7392 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-27T12:00:17.745+09:00  INFO 7392 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2025-10-27T12:00:17.753+09:00  INFO 7392 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T12:00:17.754+09:00  INFO 7392 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-27T12:00:17.780+09:00  INFO 7392 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T12:00:17.781+09:00  INFO 7392 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 650 ms
+2025-10-27T12:00:18.178+09:00  INFO 7392 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T12:00:18.200+09:00  INFO 7392 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2025-10-27T12:00:18.205+09:00  INFO 7392 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Started Ex25BranchApplication in 1.351 seconds (process running for 1.756)
+2025-10-27T12:00:19.750+09:00  INFO 7392 --- [ex25-branch] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T12:00:19.750+09:00  INFO 7392 --- [ex25-branch] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T12:00:19.751+09:00  INFO 7392 --- [ex25-branch] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T12:00:28.594+09:00  INFO 7392 --- [ex25-branch] [http-nio-8082-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T12:00:28.647+09:00  INFO 7392 --- [ex25-branch] [http-nio-8082-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@1ae22926
+2025-10-27T12:00:28.648+09:00  INFO 7392 --- [ex25-branch] [http-nio-8082-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T12:00:28.662+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-3] c.e.e.mapper.StudentMapper.findAll       : ==>  Preparing: select * from student
+2025-10-27T12:00:28.673+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-3] c.e.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:00:28.685+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-3] c.e.e.mapper.StudentMapper.findAll       : <==      Total: 6
+2025-10-27T12:00:32.849+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-4] c.e.e.mapper.StudentMapper.findAll       : ==>  Preparing: select * from student
+2025-10-27T12:00:32.849+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-4] c.e.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:00:32.850+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-4] c.e.e.mapper.StudentMapper.findAll       : <==      Total: 6
+2025-10-27T12:00:41.970+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-6] c.e.e.mapper.StudentMapper.insert        : ==>  Preparing: insert into student(name, email, age) values(?, ?, ?)
+2025-10-27T12:00:41.972+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-6] c.e.e.mapper.StudentMapper.insert        : ==> Parameters: 테스트(String), test@example.com(String), 22(Integer)
+2025-10-27T12:00:41.973+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-6] c.e.e.mapper.StudentMapper.insert        : <==    Updates: 1
+2025-10-27T12:00:41.979+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-7] c.e.e.mapper.StudentMapper.findAll       : ==>  Preparing: select * from student
+2025-10-27T12:00:41.979+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-7] c.e.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T12:00:41.980+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-7] c.e.e.mapper.StudentMapper.findAll       : <==      Total: 7
+2025-10-27T12:00:47.546+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-8] c.e.e.mapper.StudentMapper.findById      : ==>  Preparing: select * from student where id = ?
+2025-10-27T12:00:47.547+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-8] c.e.e.mapper.StudentMapper.findById      : ==> Parameters: 1(Long)
+2025-10-27T12:00:47.548+09:00 DEBUG 7392 --- [ex25-branch] [http-nio-8082-exec-8] c.e.e.mapper.StudentMapper.findById      : <==      Total: 1
