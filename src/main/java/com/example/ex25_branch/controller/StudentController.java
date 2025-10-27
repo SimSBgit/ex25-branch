@@ -32,14 +32,14 @@ public class StudentController {
 		return "list";
 	}
 	
-//	등록 페이지
+//	새학생 등록 페이지
 	@GetMapping("/new")
 	public String createForm(Model model) {
 		model.addAttribute("student", new Student());
 		return "form";
 	}
 	
-//	등록 처리
+//	학생 등록 처리
 	@PostMapping
 	public String create(@ModelAttribute Student student) {
 		studentService.createStudent(student);

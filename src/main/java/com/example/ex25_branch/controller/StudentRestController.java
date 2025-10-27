@@ -50,7 +50,6 @@ public class StudentRestController {
 //	개별 정보 수정 처리
 	@PutMapping("/{id}")
 	public ResponseEntity<Student> update(@PathVariable Long id, @RequestBody Student student) {
-
 		student.setId(id);
 		studentSerivce.updateStudent(student);
 		return ResponseEntity.ok(student);
