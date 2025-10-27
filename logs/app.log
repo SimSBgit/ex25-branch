@@ -107,6 +107,8 @@
 2025-10-27T14:09:19.003+09:00  INFO 7392 --- [ex25-branch] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
 2025-10-27T14:09:19.006+09:00  INFO 7392 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
 2025-10-27T14:09:19.068+09:00  INFO 7392 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : Starting Ex25BranchApplication using Java 21.0.8 with PID 7392 (D:\s09_springBoot\day11_1027\ex25-branch\bin\main started by YONSAI in D:\s09_springBoot\day11_1027\ex25-branch)
+2025-10-27T14:09:19.068+09:00  INFO 7392 --- [ex25-branch] [restartedMain] c.e.ex25_branch.Ex25BranchApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T14:09:19.184+09:00  INFO 7392 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
 2025-10-27T14:09:19.185+09:00  INFO 7392 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
 2025-10-27T14:09:19.185+09:00  INFO 7392 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
 2025-10-27T14:09:19.193+09:00  INFO 7392 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
