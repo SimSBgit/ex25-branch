@@ -14,9 +14,9 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @Transactional(readOnly = true)
 public class StudentService {
-	
+
 	private final StudentMapper studentMapper;
-	
+
 	public List<Student> getAllStudent() {
 		return studentMapper.findAll();
 	}
